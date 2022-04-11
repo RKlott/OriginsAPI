@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class MySQL {
 	
 	private static Connection connection;
-	private static String url_base = "jdbc:mysql://", host = "minecraft1050.omgserv.com/minecraft_185431", 
-			username = "minecraft_185431", passeword = " ";
+	private static String url_base = "jdbc:mysql://", host = " ", 
+			username = " ", passeword = " ";
 	
 	public static Connection getConnection(){
 		return connection;
